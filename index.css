@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.ana {
+   display:flex;
+   justify-content: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background: linear-gradient(to right, rgb(219, 10, 10), rgb(138, 2, 25), rgb(255, 4, 88));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.mensagem {
+   
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+    position: relative;
+    bottom:100px;
+    left: 320px;
+}
+
+.mensagem img {
+    display: flex;
+    position: relative;
+    left: 400px;
+    top:50px;
+    width: 200PX;
+}
+
+h3 {
+    display: flex;
+    justify-content:initial;
+}
