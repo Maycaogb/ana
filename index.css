@@ -39,3 +39,10 @@ h3 {
     display: flex;
     justify-content:initial;
 }
+
+.anaum {
+     background: linear-gradient(to right, rgb(47, 0, 255), rgb(0, 140, 255), rgb(0, 140, 255));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
