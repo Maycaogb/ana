@@ -16,3 +16,13 @@ muda.addEventListener('change', () => {
     dog.style.backgroundColor = '#6164e4';
   }
 });
+
+const legal = document.querySelector('.legal');
+const imagens = document.querySelector('.imagens');
+
+legal.style.opacity = '1'; // começa visível 
+imagens.style.opacity = '0';
+ legal.addEventListener('click', function () {
+  imagens.style.opacity = '1';   // imagens aparecem
+  legal.style.opacity = '1';     // legal continua visível
+});
