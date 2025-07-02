@@ -129,8 +129,13 @@ label {
 }
 
 .legal {
+  pointer-events: none  ;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
+}
+
+.legal h1 {
+  pointer-events: all;
 }
 
 .legal.toma :hover {
