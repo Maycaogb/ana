@@ -63,6 +63,9 @@ h3 {
    -webkit-text-fill-color: transparent;
 }
 
+
+
+
    .dog-rollover input {
      display:none;
     
@@ -70,10 +73,11 @@ h3 {
 
     .dog-rollover label {
       display: inline-block;
-      position: absolute;
+     position: absolute;
       width: 2.5em;
       height: 2.5em;
       cursor: pointer;
+      left: 420px;
     }
 
     .dog-rollover .dog {
@@ -83,7 +87,7 @@ h3 {
       height: 100%;
       position: absolute;
       transition:  0.6s ease;
-      top: 0px;
+      top: 0;
     }
 
     .dog {
@@ -106,7 +110,7 @@ h3 {
       position: relative;
       rotate: 90deg;
       bottom: 48px;
-      left: 49px;
+      left: 460px;
       transition:  0.3s;
     }
 
@@ -119,7 +123,7 @@ h3 {
   width: 0;
   height: 0;
   opacity: 0;
-  position: absolute;
+  position: absolute; 
 }
 
 label {
@@ -138,9 +142,6 @@ label {
   pointer-events: all;
 }
 
-.legal.toma :hover {
-  color:blue
-}
 
 .imagens {
   pointer-events: none;
@@ -158,15 +159,16 @@ opacity: calc(0);
 
 .especial {
  position: absolute;
- bottom:-170px;
+ bottom:-100px;
 
 }
 
 .dddd {
  position: absolute;
- bottom: -170px;
+ bottom: -100px;
  left: 91px;  
 }
+
 
        
     

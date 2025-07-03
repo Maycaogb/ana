@@ -24,5 +24,4 @@ legal.style.opacity = '1'; // começa visível
 imagens.style.opacity = '0';
  legal.addEventListener('click', function () {
   imagens.style.opacity = '1';   // imagens aparecem
-  legal.style.opacity = '1';     // legal continua visível
 });
