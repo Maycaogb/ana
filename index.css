@@ -7,13 +7,10 @@ body {
    display:flex;
    justify-content: center;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     background: linear-gradient(to right, rgb(219, 10, 10), rgb(138, 2, 25), rgb(255, 4, 88));
+     background: linear-gradient(to right, rgb(219, 10, 10), rgb(190, 8, 8), rgb(255, 1, 1));
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
-
-
-
 
 .mensagem {
    
@@ -35,11 +32,6 @@ h2 {
     width: 200PX;
 }
 
-h3 {
-    display: flex;
-    justify-content:initial;
-}
-
 .anaum {
      background: linear-gradient(to right, rgb(47, 0, 255), rgb(0, 140, 255), rgb(0, 140, 255));
    -webkit-background-clip:text ;
@@ -52,19 +44,12 @@ h3 {
    font-family:cursive
 }
 
-
-    
-
-
 .sim:hover {
     font-size: large;
  background: linear-gradient(to right, rgb(0, 119, 255), rgb(48, 4, 209), rgb(0, 203, 230));
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
-
-
-
 
    .dog-rollover input {
      display:none;
@@ -77,7 +62,7 @@ h3 {
       width: 2.5em;
       height: 2.5em;
       cursor: pointer;
-      left: 420px;
+      left: 510px;
     }
 
     .dog-rollover .dog {
@@ -90,17 +75,11 @@ h3 {
       top: 0;
     }
 
-    .dog {
-  transition: 0.6s ease;
-}
-
-    
 .switch input {
     display:none;
 
 }
 
-       
     .fundo {
         background: rgba(131, 131, 131, 0.103);
       border-radius: 50px;
@@ -110,7 +89,7 @@ h3 {
       position: relative;
       rotate: 90deg;
       bottom: 48px;
-      left: 460px;
+      left: 550px;
       transition:  0.3s;
     }
 
@@ -118,13 +97,6 @@ h3 {
         background: rgba(42, 42, 56, 0.5);
         transition: 0.1 ease;
     }
-    
-  #muda {
-  width: 0;
-  height: 0;
-  opacity: 0;
-  position: absolute; 
-}
 
 label {
   display: inline-block;
@@ -145,10 +117,6 @@ label {
 
 .imagens {
   pointer-events: none;
-}
-
-.imagens.ligado:hover img{
-opacity: calc(0);
 }
 
 .imagens img{
